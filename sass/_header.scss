@@ -1,0 +1,15 @@
+.menu{
+    background: $colorheader
+}
+.imagen-navegador{
+    img{
+        border-radius: 50%;
+        padding: 10px;
+    }
+}
+.transicion{
+    transition: all 2s;
+}
+.transicion:hover{
+    transform: rotatey(360deg);
+}

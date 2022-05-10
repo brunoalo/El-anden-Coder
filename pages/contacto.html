@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <meta name="description" content="Pagina del Anden">
+    <meta name="keywords" content="Bar, El Anden, boliche, birra">
+    <link rel="shortcut icon" href="../img/el-anden-logo-fondo-negro-removebg-preview.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <header class="color-nav menu">
+        <nav class="navbar navbar-expand-lg navbar-ligth bg-nuevo">
+            <div class="container-fluid imagen-navegador">
+            <a class="navbar-brand" href="../index.html"><img src="../img/elandenpared.jpg" alt="logo-anden" class="transicion" width="100px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 centrar">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Bar</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="./barra.html">Barra</a></li>
+                            <li><a class="dropdown-item" href="./eventos.html">Eventos</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <main class="contenidoprincipal">
+            <div class="contenidoprincipal__titulo">
+                <h1>Contactanos</h1>
+            </div>
+            <div class="contenidoprincipal__imagen">
+                <img src="../img/contacto-imagenes.jpeg" alt="foto-nosotros">
+            </div>
+        </main>
+    </main>
+    <section class="formulario">
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Ingresa tu email</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Dejanos tu comentario</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
+        </div>
+        <div class="d-grid gap-2">
+            <button class="btn btn-primary" type="button">Enviar</button>
+        </div>
+    </section>
+
+
+    <footer class="pie">
+        <div class="pie__lista">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="./nosotros.html">Nosotros</a></li>
+            <li><a href="./contacto.html">Contacto</a></li>
+            <li><a href="./barra.html">Barra</a></li>
+            <li><a href="./eventos.html">Eventos</a></li>
+        </div>
+        <div class="pie__redes">
+            <div class="pie__redes__span">
+                <span>© El Anden 2019</span>
+            </div>
+            <div class="pie__redes__ul">
+                <ul>
+                    <li>
+                        <a href="https://www.facebook.com/El-And%C3%A9n-106433784377083" target="blanck">
+                            <img src="../img/facebook.png" alt="icon-facebook" width="30">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/elandenlaprida/?hl=es-la" target="blanck">
+                            <img src="../img/instagram.png" alt="imagen-instagram" width="30">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
