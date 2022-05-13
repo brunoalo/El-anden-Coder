@@ -1,8 +1,18 @@
 .menu{
-    background: $colorheader
+    background: $colorheader;
+    font-size: 24px;
+}
+.navbar{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.navbar-brand{
+    margin: 0;
 }
 .imagen-navegador{
+    flex-direction: column;
     img{
+        width: 150px;
         border-radius: 50%;
         padding: 10px;
     }

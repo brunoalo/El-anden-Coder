@@ -6,6 +6,9 @@
     font-family: 'Staatliches', cursive;
     color: $colorletras;
 }
+.cambio-color{
+    color: $colorletras!important
+}
 .contenidoprincipal{
     display: flex;
         .contenidoprincipal__titulo{
@@ -28,6 +31,7 @@
         justify-content: center;
         text-align: center;
         padding: 30px;
+        margin-bottom: 0!important;
     }
     &__card{
         display: flex;
@@ -60,7 +64,10 @@
         list-style: none;
         gap: 20px;
         li{
-            color: $colorletras;
+            a{
+                text-decoration: none;
+                color: $colorletras;
+            }
         }
     }
     &__redes{
@@ -198,14 +205,15 @@
         img{
             width: 100%;
             height: 100%;
+            border-radius: 4px;
             object-fit: cover;
-            filter: grayscale(50%);
+            filter: grayscale(30%);
             transition: all .3s ease;
         }
         img:hover{
             cursor: pointer;
             filter: grayscale(0%);
-            transform: scale(1.1);
+            transform: scale(1.023);
             box-shadow: 0 0 10px rgba(0, 0, 0, .5);
         }
     }
@@ -296,6 +304,9 @@
 .pie-foto{
     background: $colorsecciones;
     padding-left: 2%;
+    p{
+        margin-bottom: 0!important;
+    }
 }
 .prxeventos-titulo{
     background-color: $colorsecciones;
@@ -318,6 +329,22 @@
     text-align: center;
 }
 @media (max-width: 912px) {
+    .menu{
+        font-size: 18px;
+    }
+    .navbar{
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+    .imagen-navegador{
+        flex-direction: row;
+        img{
+            width: 100px;
+        }
+    }
+    .centrar-mobile{
+        text-align: center;
+    }
     .eventos__card{
         flex-direction: column;
         align-items: center;
@@ -340,7 +367,7 @@
         }
         &__img{
             img{
-                width: 100%;
+                width: 200px;
             }
         }
     }
@@ -353,12 +380,15 @@
         }
         &__img{
             img{
-                width: 100%;
+                width: 200px;
             }
         }
     }
 }
 @media (max-width: 612px){
+    .menu{
+        font-size: 16px;
+    }
     .proxeventos{
         flex-direction: column;
         align-items: center;
