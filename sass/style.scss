@@ -151,16 +151,21 @@
 }
 .carousel-birras{
     background: $colorsecciones;
-    padding: 20px;
+    padding: 20px 60px;
 }
 .carousel-item{
+    img{
+        border-radius: 5px;
+    }
     h4{
         text-align: center;
         padding-top: 20px;
+        font-size: 26px;
     }
     p{
         text-align: center;
         padding-bottom: 20px;
+        font-size: 20px;
     }
 }
 .opciones{
@@ -434,6 +439,16 @@
         &__card:hover{
         height: 180px;
         width: 150px;
+        }
+    }
+    .carousel-item{
+        h4{
+            padding-top: 20px;
+            font-size: 20px;
+        }
+        p{
+            padding-bottom: 20px;
+            font-size: 15px;
         }
     }
     .proxeventos{

@@ -264,17 +264,23 @@
 
 .carousel-birras {
   background: #403e3e;
-  padding: 20px;
+  padding: 20px 60px;
+}
+
+.carousel-item img {
+  border-radius: 5px;
 }
 
 .carousel-item h4 {
   text-align: center;
   padding-top: 20px;
+  font-size: 26px;
 }
 
 .carousel-item p {
   text-align: center;
   padding-bottom: 20px;
+  font-size: 20px;
 }
 
 .opciones {
@@ -625,6 +631,14 @@
   .opciones__card:hover {
     height: 180px;
     width: 150px;
+  }
+  .carousel-item h4 {
+    padding-top: 20px;
+    font-size: 20px;
+  }
+  .carousel-item p {
+    padding-bottom: 20px;
+    font-size: 15px;
   }
   .proxeventos {
     -webkit-box-orient: vertical;
