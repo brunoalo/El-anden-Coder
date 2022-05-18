@@ -330,64 +330,6 @@
           box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
 }
 
-/* .barra{
-    background: $colorseccionbarra;
-    display: flex;
-    flex-direction: column;
-    &__titulo{
-        text-align: center;
-        padding: 50px;
-    }
-    &__titulito{
-        text-align: center;
-        padding: 30px;
-    }
-    &__izquierda{
-        display: flex;
-        flex-direction: row-reverse;
-        width: 100%;
-        justify-content: left;
-        align-items: center;
-        padding: 10px;
-        &__txt{
-            padding: 20px;
-            p{
-                text-align: center;
-            }
-        }
-        &__img{
-            padding: 20px;
-            img{
-                border: 5px solid white;
-                border-radius: 50%;
-            }
-        }
-    }
-    &__derecha{
-        display: flex;
-        flex-direction: row;
-        justify-content: right;
-        align-items: center;
-        padding: 10px;
-        &__txt{
-            padding: 20px;
-            p{
-                text-align: center;
-            }
-        }
-        &__img{
-            padding: 20px;
-            img{
-                border: 5px solid white;
-                border-radius: 50%;
-            }
-        }
-    }
-}
-.campari{
-    background: $colorprefooterbarra;
-    padding-bottom: 40px;
-} */
 .formulario {
   background: -webkit-gradient(linear, left top, left bottom, from(#403e3e), to(#9e2a2b));
   background: linear-gradient(#403e3e, #9e2a2b);
